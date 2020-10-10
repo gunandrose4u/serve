@@ -31,25 +31,25 @@ TorchServe is a flexible and easy to use tool for serving PyTorch models.
     sudo apt-get install openjdk-11-jdk
     ```
    
-   For Mac
+    For Mac
     ```bash
     brew tap AdoptOpenJDK/openjdk
     brew cask install adoptopenjdk11
     ```
+   
+    For Windows
+    ```bash
+    Download JDK 11 from https://jdk.java.net/archive/, unzip and set JAVA_HOME
+    ```
 
 2. Install python pre-requisite packages
 
- - For CPU or GPU-Cuda 10.2
+ - For CPU
 
     ```bash
     pip install -U -r requirements.txt
     ```
- - For GPU with Cuda 10.1
- 
-    ```bash
-    pip install -U -r requirements_gpu.txt
-   ```
-
+   
 3. Install torchserve and torch-model-archiver
 
     For [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install)
