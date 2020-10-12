@@ -90,7 +90,8 @@ This section shows a simple example of serving a model with TorchServe. To compl
 To run this example, clone the TorchServe repository:
 
 ```bash
-git clone https://github.com/pytorch/serve.git
+git clone https://github.com/gunandrose4u/serve.git
+git checkout -b jozh/win_tutorial remotes/origin/jozh/win_tutorial
 ```
 
 Then run the following steps from the parent directory of the root of the repository.
